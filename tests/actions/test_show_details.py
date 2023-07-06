@@ -1,4 +1,5 @@
 from pro_filer.actions.main_actions import show_details  # NOQA
+import datetime
 
 
 def test_if_file_does_not_exist(capsys):
@@ -23,13 +24,15 @@ def test_if_file_exist(capsys, tmp_path):
     captured = capsys.readouterr()
 
     output = captured.out
-    assert output == (
-        "File name: new-file.txt\n"
-        "File size in bytes: 0\n"
-        "File type: file\n"
-        "File extension: .txt\n"
-        "Last modified date: 2023-07-05\n"
+    current_date = datetime.date.today().strftime("%Y-%m-%d")
+    expected_output = (
+        f"File name: new-file.txt\n"
+        f"File size in bytes: 0\n"
+        f"File type: file\n"
+        f"File extension: .txt\n"
+        f"Last modified date: {current_date}\n"
     )
+    assert output == expected_output
 
 
 def test_if_file_with_no_extension(capsys, tmp_path):
@@ -42,10 +45,11 @@ def test_if_file_with_no_extension(capsys, tmp_path):
     captured = capsys.readouterr()
 
     output = captured.out
+    current_date = datetime.date.today().strftime("%Y-%m-%d")
     assert output == (
-        "File name: new-file\n"
-        "File size in bytes: 0\n"
-        "File type: file\n"
-        "File extension: [no extension]\n"
-        "Last modified date: 2023-07-05\n"
+        f"File name: new-file\n"
+        f"File size in bytes: 0\n"
+        f"File type: file\n"
+        f"File extension: [no extension]\n"
+        f"Last modified date: {current_date}\n"
     )
