@@ -1,13 +1,18 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Boas-vindas ao Profiler!
+<details>
+  <summary><strong>👨‍💻 Tecnologias usadas</strong></summary><br />
+  - python
+  - pytest
+</details>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<details>
+  <summary><strong>:memo: Habilidades trabalhadas </strong></summary>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+- Encontrar bugs no código de uma aplicação escrita em Python;
+- Corrigir bugs no código de uma aplicação escrita em Python;
+- Criar testes para uma aplicação escrita em Python;
+- Utilizar o `pytest` para criar testes automatizados em uma aplicação escrita em Python.
+
+<!-- 🤔 [HS] Escrevam as habilidade utilizando a Taxonomia de Bloom. -->
+
+</details>
