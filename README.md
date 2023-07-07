@@ -1,6 +1,6 @@
 # Boas-vindas ao Profiler!
 <details>
-  <summary><strong>👨‍💻 Tecnologias usadas</strong></summary><br />
+<summary><strong>👨‍💻 Tecnologias usadas</strong></summary><br />
   - python
   - pytest
 </details>
